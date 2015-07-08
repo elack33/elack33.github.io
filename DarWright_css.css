@@ -1,0 +1,123 @@
+body {
+    background-color: lightsteelblue;
+}
+
+img.self {
+    border-radius: 25px;
+}
+
+h1 {
+    font-family: 'Bree Serif', serif;
+    font-size: 3em;
+}
+
+p.name {
+    font-family: 'Bree Serif', serif;
+    font-size: 3em;
+    padding: 0;
+    margin: 2px 2px 2px 2px;
+}
+
+h2 {
+    font-family: 'Bree Serif', serif;
+    padding: 0;
+}
+
+p.big_text{
+    font-family: 'Bree Serif', serif;
+    font-size: 24px;
+    padding: 0;
+    margin: 2px 2px 2px 2px;
+}
+
+div.header{
+    position: absolute;
+    left: 10px;
+    top: 1px;
+    z-index: 0;
+}
+div.job_title{
+    position: absolute;
+    left: 50px;
+    top: 65px;
+    z-index: 0;
+}
+
+div.self{
+    position: absolute;
+    right: 30px;
+    top: 0px;
+    z-index: 0;
+}
+
+div.goal{
+    box-shadow: 10px 10px 5px #888888;
+    background-color: lightcyan;
+    display:block;
+    position: absolute;
+    padding: 5px;
+    border-radius: 25px;
+    left: 75px;
+    right: 500px;
+    top: 150px;
+    z-index: 0;
+}
+
+div.skills{
+    box-shadow: 10px 10px 5px #888888;
+    background-color: lightcyan;
+    display:block;
+    position: absolute;
+    padding: 5px;
+    border-radius: 25px;
+    left: 75px;
+    right: 30px;
+    top: 350px;
+    z-index: 0;
+
+}
+
+#skills ul{
+    padding: 0;
+
+}
+
+ul.square{
+    list-style-type: square;
+}
+
+#skills > li{
+    display: inline;
+    list-style-type: square;
+    padding-right: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+div.examples{
+      box-shadow: 10px 10px 5px #888888;
+      background-color: lightcyan;
+      display:block;
+      position: absolute;
+      padding: 5px;
+      border-radius: 25px;
+      left: 75px;
+      right: 550px;
+      top: 675px;
+      z-index: 0;
+      text-align: center;
+  }
+
+div.contact_me{
+    box-shadow: 10px 10px 5px #888888;
+    background-color: lightcyan;
+    display:block;
+    position: absolute;
+    padding: 5px;
+    border-radius: 25px;
+    left: 600px;
+    right: 30px;
+    top: 675px;
+    z-index: 0;
+    text-align: center;
+}
