@@ -144,7 +144,7 @@ div.github {
     position: absolute;
     padding: 5px;
     border-radius: 25px;
-    left: 50px;
+    left: 75px;
     right: 30px;
     top: 775px;
     z-index: 0;
@@ -159,7 +159,7 @@ div.example_left{
     padding: 5px;
     border-radius: 25px;
     left: 75px;
-    right: 600px;
+    right: 550px;
     top: 875px;
     z-index: 0;
     text-align: center;
@@ -175,6 +175,16 @@ div.example_right{
     left: 600px;
     right: 30px;
     top: 875px;
+    z-index: 0;
+    text-align: center;
+}
+
+div.bottom {
+    position: absolute;
+    bottom: 2px;
+    left: 75px;
+    right: 30px;
+    top: 1500px;
     z-index: 0;
     text-align: center;
 }
