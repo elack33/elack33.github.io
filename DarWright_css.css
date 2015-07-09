@@ -30,6 +30,21 @@ p.big_text{
     margin: 2px 2px 2px 2px;
 }
 
+p.contact{
+    font-family: 'Bree Serif', serif;
+    padding: 0;
+    margin: 2px 2px 2px 2px;
+}
+
+strong.contact {
+    font-family: 'Bree Serif', serif;
+    font-size: 24px;
+}
+
+strong.list {
+    font-size: 16px;
+}
+
 div.header{
     position: absolute;
     left: 10px;
@@ -94,21 +109,21 @@ ul.square{
     padding-bottom: 1px;
 }
 
-div.examples{
-      box-shadow: 10px 10px 5px #888888;
-      background-color: lightcyan;
-      display:block;
-      position: absolute;
-      padding: 5px;
-      border-radius: 25px;
-      left: 75px;
-      right: 600px;
-      top: 675px;
-      z-index: 0;
-      text-align: center;
-  }
+div.contact{
+    box-shadow: 10px 10px 5px #888888;
+    background-color: lightcyan;
+    display:block;
+    position: absolute;
+    padding: 5px;
+    border-radius: 25px;
+    left: 75px;
+    right: 600px;
+    top: 675px;
+    z-index: 0;
+    text-align: center;
+}
 
-div.contact_me{
+div.moreinfo{
     box-shadow: 10px 10px 5px #888888;
     background-color: lightcyan;
     display:block;
@@ -122,6 +137,47 @@ div.contact_me{
     text-align: center;
 }
 
-strong.list {
-    font-size: 16px;
+div.github {
+    box-shadow: 10px 10px 5px #888888;
+    background-color: lightcyan;
+    display:block;
+    position: absolute;
+    padding: 5px;
+    border-radius: 25px;
+    left: 50px;
+    right: 30px;
+    top: 775px;
+    z-index: 0;
+    text-align: center;
 }
+
+div.example_left{
+    box-shadow: 10px 10px 5px #888888;
+    background-color: lightcyan;
+    display:block;
+    position: absolute;
+    padding: 5px;
+    border-radius: 25px;
+    left: 75px;
+    right: 600px;
+    top: 875px;
+    z-index: 0;
+    text-align: center;
+}
+
+div.example_right{
+    box-shadow: 10px 10px 5px #888888;
+    background-color: lightcyan;
+    display:block;
+    position: absolute;
+    padding: 5px;
+    border-radius: 25px;
+    left: 600px;
+    right: 30px;
+    top: 875px;
+    z-index: 0;
+    text-align: center;
+}
+
+
+
