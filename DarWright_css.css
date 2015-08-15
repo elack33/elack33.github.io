@@ -89,6 +89,7 @@ div.skills{
     right: 30px;
     top: 350px;
     z-index: 0;
+    width: 1020px;
 
 }
 
@@ -148,9 +149,10 @@ div.github {
     top: 775px;
     z-index: 0;
     text-align: center;
+    width: 1020px;
 }
 
-div.example_left{
+div.stopwatch{
     box-shadow: 10px 10px 5px #888888;
     background-color: lightcyan;
     display:block;
@@ -158,24 +160,28 @@ div.example_left{
     padding: 5px;
     border-radius: 25px;
     left: 75px;
-    right: 550px;
-    top: 875px;
+    right: 30px;
+    /*right: 550px;*/
+    top: 1075px;
     z-index: 0;
     text-align: center;
+    /*width: 500px;*/
 }
 
-div.example_right{
+div.hangman{
     box-shadow: 10px 10px 5px #888888;
     background-color: lightcyan;
     display:block;
     position: absolute;
     padding: 5px;
     border-radius: 25px;
-    left: 600px;
+    /*left: 600px;*/
+    left: 75px;
     right: 30px;
-    top: 875px;
+    top: 925px;
     z-index: 0;
     text-align: center;
+    /*width: 500px;*/
 }
 
 div.bottom {
